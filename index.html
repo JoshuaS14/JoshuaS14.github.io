@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Joshua Sanchez — Computer and Information Sciences student and aspiring software developer. Portfolio showcasing Java and Processing projects." />
+  <title>Joshua Sanchez | Software Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" aria-label="Joshua Sanchez home">JS<span class="logo-dot">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero" aria-label="Introduction">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-grid"></div>
+        <div class="hero-glow glow-1"></div>
+        <div class="hero-glow glow-2"></div>
+      </div>
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot" aria-hidden="true"></span>
+          Open to Internships &amp; Opportunities
+        </div>
+        <h1 class="hero-name">Joshua<br /><span class="accent">Sanchez</span></h1>
+        <p class="hero-title">Aspiring Software Developer</p>
+        <p class="hero-bio">Computer &amp; Information Sciences student passionate about Java, Processing, and building software that combines functionality with user interaction.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-scroll" aria-hidden="true">
+          <span class="scroll-line"></span>
+          <span class="scroll-label">Scroll</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section" aria-label="About me">
+      <div class="container">
+        <div class="section-label">About Me</div>
+        <h2 class="section-title">Who I Am</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I am a Computer and Information Sciences student with experience developing software applications in Java and Processing. Throughout this year, I have focused on strengthening my programming fundamentals through object-oriented programming, algorithm development, inheritance, recursion, and interactive application design.</p>
+            <p>My technical skills include Java programming, data structures, sorting and searching algorithms, object-oriented design, and graphical application development using Processing. I enjoy solving problems through code and creating software that combines functionality with user interaction.</p>
+            <p>My career interests include Software Engineering, Application Development, and Interactive Systems. I am continuing to expand my knowledge of programming concepts while building projects that demonstrate both technical proficiency and creative problem-solving.</p>
+          </div>
+          <div class="skills-panel">
+            <h3 class="skills-heading">Technical Skills</h3>
+            <ul class="skills-list" role="list" aria-label="Technical skills">
+              <li class="skill-tag">Java</li>
+              <li class="skill-tag">Processing</li>
+              <li class="skill-tag">Object-Oriented Programming</li>
+              <li class="skill-tag">Data Structures</li>
+              <li class="skill-tag">Algorithms</li>
+              <li class="skill-tag">Recursion</li>
+              <li class="skill-tag">Inheritance</li>
+              <li class="skill-tag">Problem Solving</li>
+              <li class="skill-tag">Software Development</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section section-dark" aria-label="Project showcase">
+      <div class="container">
+        <div class="section-label">My Work</div>
+        <h2 class="section-title">Project Showcase</h2>
+        <p class="section-subtitle">A collection of projects built throughout my CTE Computer and Information Sciences coursework.</p>
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card" aria-label="Project: Interactive Car Racing Simulator">
+            
+            <div class="card-body">
+              <div class="card-num" aria-hidden="true">01</div>
+              <h3 class="card-title">Interactive Car Racing Simulator</h3>
+              <p class="card-problem"><strong>Problem:</strong> Build a program that lets users customize a virtual race car and compete against a computer-controlled opponent, simulating vehicle performance through configurable components.</p>
+              <div class="card-stack">
+                <span class="stack-tag">Java</span>
+                <span class="stack-tag">Scanner</span>
+                <span class="stack-tag">Arrays</span>
+                <span class="stack-tag">Methods</span>
+                <span class="stack-tag">Random</span>
+              </div>
+              <p class="card-reflection">This project helped me practice modular programming by separating functionality into multiple methods. I focused on creating a menu-driven interface that allowed users to make decisions and customize their vehicles. One challenge was balancing the race scoring system so upgrades meaningfully affected performance without guaranteeing victory — solved by combining upgrade values with randomized race outcomes.</p>
+              <div class="card-skills">
+                <h4 class="skills-label">Skills Demonstrated</h4>
+                <ul class="inline-skills" role="list">
+                  <li>OOP Concepts</li>
+                  <li>User Input Handling</li>
+                  <li>Method Design</li>
+                  <li>Program Flow Control</li>
+                  <li>Simulation Development</li>
+                </ul>
+              </div>
+              <a href="https://github.com/yourusername" class="card-link" target="_blank" rel="noopener noreferrer" aria-label="View project on GitHub">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" aria-label="Project: Spring Flowers Inheritance Visualization">
+            
+            <div class="card-body">
+              <div class="card-num" aria-hidden="true">02</div>
+              <h3 class="card-title">Spring Flowers Inheritance Visualization</h3>
+              <p class="card-problem"><strong>Problem:</strong> Design a graphical application demonstrating inheritance through a flower system where different flower types share parent-class properties while maintaining unique visual characteristics.</p>
+              <div class="card-stack">
+                <span class="stack-tag">Processing</span>
+                <span class="stack-tag">Java</span>
+                <span class="stack-tag">OOP</span>
+                <span class="stack-tag">Inheritance</span>
+                <span class="stack-tag">Graphics</span>
+              </div>
+              <p class="card-reflection">The primary goal was understanding inheritance and class relationships. I designed a base Flower class with shared attributes and extended it through specialized subclasses such as Zinnia. A key challenge was determining which attributes belonged in the parent versus child classes — this project deepened my understanding of code reuse and object-oriented design principles.</p>
+              <div class="card-skills">
+                <h4 class="skills-label">Skills Demonstrated</h4>
+                <ul class="inline-skills" role="list">
+                  <li>Inheritance</li>
+                  <li>Class Design</li>
+                  <li>Graphics Programming</li>
+                  <li>Code Reusability</li>
+                  <li>OOP Development</li>
+                </ul>
+              </div>
+              <a href="https://github.com/yourusername" class="card-link" target="_blank" rel="noopener noreferrer" aria-label="View project on GitHub">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" aria-label="Project: Sorting and Search Algorithms Lab">
+            
+            <div class="card-body">
+              <div class="card-num" aria-hidden="true">03</div>
+              <h3 class="card-title">Sorting &amp; Search Algorithms Lab</h3>
+              <p class="card-problem"><strong>Problem:</strong> Implement and demonstrate multiple sorting and searching algorithms, allowing users to organize numerical, character, and string data while performing sequential and binary searches.</p>
+              <div class="card-stack">
+                <span class="stack-tag">Java</span>
+                <span class="stack-tag">Arrays</span>
+                <span class="stack-tag">Bubble Sort</span>
+                <span class="stack-tag">Binary Search</span>
+                <span class="stack-tag">Exchange Sort</span>
+              </div>
+              <p class="card-reflection">The objective was to understand how common algorithms process and organize data. I implemented several sorting approaches and compared their behavior on different data types. Correctly implementing binary search — which requires sorted data and careful index management — was the core challenge. Debugging the search logic improved my understanding of algorithm efficiency.</p>
+              <div class="card-skills">
+                <h4 class="skills-label">Skills Demonstrated</h4>
+                <ul class="inline-skills" role="list">
+                  <li>Algorithm Development</li>
+                  <li>Data Processing</li>
+                  <li>Searching Techniques</li>
+                  <li>Sorting Techniques</li>
+                  <li>Debugging</li>
+                </ul>
+              </div>
+              <a href="https://github.com/yourusername" class="card-link" target="_blank" rel="noopener noreferrer" aria-label="View project on GitHub">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card" aria-label="Project: Recursive Fractal Tree Generator">
+            
+            <div class="card-body">
+              <div class="card-num" aria-hidden="true">04</div>
+              <h3 class="card-title">Recursive Fractal Tree Generator</h3>
+              <p class="card-problem"><strong>Problem:</strong> Generate animated fractal trees using recursive programming, creating branching structures that respond to user input and animation controls.</p>
+              <div class="card-stack">
+                <span class="stack-tag">Processing</span>
+                <span class="stack-tag">Java</span>
+                <span class="stack-tag">Recursion</span>
+                <span class="stack-tag">Animation</span>
+                <span class="stack-tag">Math Transforms</span>
+              </div>
+              <p class="card-reflection">This project introduced advanced recursive programming through visual fractal generation — each branch spawns additional branches until a stopping condition is reached. The hardest challenge was designing an effective base case to prevent infinite recursion while maintaining a visually appealing result. Through testing and refinement, I developed a balanced recursive structure producing complex tree formations.</p>
+              <div class="card-skills">
+                <h4 class="skills-label">Skills Demonstrated</h4>
+                <ul class="inline-skills" role="list">
+                  <li>Recursion</li>
+                  <li>Math Visualization</li>
+                  <li>Interactive Graphics</li>
+                  <li>Animation Programming</li>
+                  <li>Problem Solving</li>
+                </ul>
+              </div>
+              <a href="https://github.com/yourusername" class="card-link" target="_blank" rel="noopener noreferrer" aria-label="View project on GitHub">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </article>
+
+        </div><!-- /projects-grid -->
+      </div>
+    </section>
+
+    <!-- ===== RESUME ===== -->
+    <section id="resume" class="section" aria-label="Resume">
+      <div class="container">
+        <div class="section-label">My Resume</div>
+        <h2 class="section-title">Experience &amp; Education</h2>
+        <div class="resume-wrapper">
+          <div class="resume-preview" role="region" aria-label="Resume preview area">
+            <div class="resume.pdf">
+              <svg width="52" height="64" viewBox="0 0 52 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="2" y="2" width="48" height="60" rx="4" stroke="currentColor" stroke-width="2"/>
+                <path d="M12 20h28M12 28h28M12 36h20M12 44h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <p>Resume PDF Preview</p>
+              <span>Add your resume.pdf to the project folder</span>
+            </div>
+          </div>
+          <div class="resume-actions">
+            <p class="resume-desc">Download my full resume to learn more about my coursework, projects, and technical skills as a Computer and Information Sciences student.</p>
+            <a href="resume.pdf" class="btn btn-primary" download aria-label="Download resume as PDF">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section section-dark" aria-label="Contact information">
+      <div class="container">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">Whether you're a recruiter, admissions officer, or fellow developer — I'd love to connect.</p>
+        <div class="contact-grid">
+
+          <a href="mailto:yourschool@email.com" class="contact-card" aria-label="Send email to Joshua Sanchez">
+            <div class="contact-icon-wrap" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-type">Email</span>
+              <span class="contact-value">yourschool@email.com</span>
+            </div>
+            <div class="contact-arrow" aria-hidden="true">→</div>
+          </a>
+
+          <a href="https://github.com/yourusername" class="contact-card" target="_blank" rel="noopener noreferrer" aria-label="Visit Joshua Sanchez GitHub profile">
+            <div class="contact-icon-wrap" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-type">GitHub</span>
+              <span class="contact-value">github.com/yourusername</span>
+            </div>
+            <div class="contact-arrow" aria-hidden="true">→</div>
+          </a>
+
+          <a href="https://linkedin.com/in/yourprofile" class="contact-card" target="_blank" rel="noopener noreferrer" aria-label="Visit Joshua Sanchez LinkedIn profile">
+            <div class="contact-icon-wrap contact-icon-wrap--linkedin" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect x="2" y="9" width="4" height="12"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-type">LinkedIn</span>
+              <span class="contact-value">linkedin.com/in/yourprofile</span>
+            </div>
+            <div class="contact-arrow" aria-hidden="true">→</div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="nav-logo">JS<span class="logo-dot">.</span></span>
+        <span class="footer-name">Joshua Sanchez</span>
+      </div>
+      <p class="footer-copy">Computer &amp; Information Sciences Student &bull; CTE Portfolio &bull; <span id="year"></span></p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
