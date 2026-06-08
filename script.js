@@ -3,27 +3,28 @@ document.addEventListener('DOMContentLoaded', () => {
   const navLinks = document.getElementById('navLinks');
 
   if (navToggle && navLinks) {
-    // Toggle menu open/close
+    // Toggle the 'open' class when clicking the hamburger button
     navToggle.addEventListener('click', () => {
       const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
       navToggle.setAttribute('aria-expanded', !isExpanded);
       
-      navToggle.classList.toggle('active');
-      navLinks.classList.toggle('active');
+      // Matches your CSS (.nav-toggle.open and .nav-links.open)
+      navToggle.classList.toggle('open');
+      navLinks.classList.toggle('open');
     });
 
-    // Close menu when a link is clicked (ideal for single-page portfolios)
+    // Automatically close the menu overlay when a user clicks a section link
     const links = navLinks.querySelectorAll('a');
     links.forEach(link => {
       link.addEventListener('click', () => {
         navToggle.setAttribute('aria-expanded', 'false');
-        navToggle.classList.remove('active');
-        navLinks.classList.remove('active');
+        navToggle.classList.remove('open');
+        navLinks.classList.remove('open');
       });
     });
   }
 
-  // Quick fix for your footer dynamic year
+  // Bonus: Automatically updates the copyright year in your footer element
   const yearSpan = document.getElementById('year');
   if (yearSpan) {
     yearSpan.textContent = new Date().getFullYear();
